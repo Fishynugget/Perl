@@ -1,0 +1,36 @@
+.notmain {
+   display: grid;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    a {
+        background-color: rgb(234, 234, 234);
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+    }
+}
+
+.lists {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+a#select {
+    height: 200px;
+    aspect-ratio: 1/1;
+}
+
+.tussenkopjes {
+    width: 20vw;
+    aspect-ratio: 1/1;
+    margin: 2%;
+    background-color: rgb(234, 234, 234);
+}
+
+p {
+    margin: 2%;
+    font-size: 1.5vw;
+}
