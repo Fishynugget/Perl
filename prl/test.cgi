@@ -1,5 +1,7 @@
 #!C:\xampp\perl\bin\perl.exe
 print "Content-type: text/html\n\n";
+use strict;
+use warnings;
 use v5.14;
 my @numbers = (1, 2, 3, 4, 5, 6);
 my $randnum1 = rand(7);
