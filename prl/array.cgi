@@ -1,3 +1,5 @@
+#!C:\xampp\perl\bin\perl.exe
+print "Content-type: text/html\n\n";
 my @array = ("Hello");
 my $array_reference = \@array;
 my @num = (1,2,3,4,5,6,7,8,9,10);
