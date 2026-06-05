@@ -44,7 +44,9 @@
             <a id="select" href="php/uvwxyz.php">u through z</a>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <a id="select" href="prl/web-test.cgi">log out</a>
+    </footer>
 </body>
 
 </html>

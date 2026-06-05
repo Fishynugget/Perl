@@ -19,5 +19,8 @@
 </html>
 
 <?php
-virtual('enter.php');
+$log = $_POST['log'];
+$use = $_POST['use'];
+system('prl/login.pl');
+virtual('prl/login.pl');
 ?>

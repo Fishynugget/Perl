@@ -1,6 +1,11 @@
 #!C:\xampp\perl\bin\perl.exe
+#C:\xampp\cgi-bin
 use strict;
 use warnings;
+
+use CGI qw(:standard);
+my $cgi=new CGI;
+
 print <<'END';
 Status: 200
 Content-type: text/html
@@ -17,10 +22,10 @@ Content-type: text/html
         perl web-page
         <h3>?</h3>
         <form method="post">
-            <section>
+            <section id="form-input">
                 enter:
-                <input type="text" name="use">
-                <input type="text" name="log">
+                <input type="text" id="input-use" name="use">
+                <input type="text" id="input-log" name="log">
             </section>
             <input type="submit" name="submit" value="confirm">
         </form>
@@ -28,4 +33,14 @@ Content-type: text/html
 </html>
 END
 
-my $php_output = `php /../enter.php -param1 -param2 -param3`;
+my $use = $cgi->param('use');
+my $log = $cgi->param('log');
+
+if ($log eq "1997" && $use eq "S") {
+    print '<a href="../prl.php">successs</a>';
+} else {
+    print "not allowed!";
+}
+
+
+
