@@ -37,7 +37,7 @@ my $use = $cgi->param('use');
 my $log = $cgi->param('log');
 
 if ($log eq "1997" && $use eq "S") {
-    print '<a href="../prl.php">successs</a>';
+    print '<a href="../prl.cgi">successs</a>';
 } else {
     print "not allowed!";
 }

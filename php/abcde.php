@@ -14,7 +14,8 @@
         <a href="#constructor">constructor</a>
         <a href="#dataStructures">data structures</a>
         <a href="#encapsulation">encapsulation</a>
-        <a href="../prl.php">Go back</a>
+        <a href="../prl.cgi">Go back</a>
+        <a href="../prl/web-test.cgi">log out</a>
     </section>
 
     <section id="array">

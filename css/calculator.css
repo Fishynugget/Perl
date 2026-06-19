@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    background-color: rgb(64, 149, 234);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+
+    section:nth-child(1) {
+        display: flex;
+        flex-direction: row;
+        margin: 5%;
+        width: fit-content;
+        
+        input {
+            width: 50px;
+            margin: 2%;
+        }
+    }
+    section:nth-child(2) {
+        margin: 5%;
+    }
+}

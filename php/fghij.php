@@ -4,7 +4,8 @@
 </head>
 <body class="notmain">
     <section id="navbar">
-        <a href="../prl.php">Go back</a>
+        <a href="../prl.cgi">Go back</a>
+        <a href="../prl/web-test.cgi">log out</a>
     </section>
 
     <section id="functions">
