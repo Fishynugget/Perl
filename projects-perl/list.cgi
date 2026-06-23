@@ -17,6 +17,7 @@ Content-type: text/html
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../prl.css">
+    <link rel="stylesheet" href="../css/list.css">
     <title>Document</title>
 </head>
 
@@ -26,7 +27,9 @@ Content-type: text/html
     </header>
     <main>
         <form action="" method="post">
-            <input type="text" name="number">
+            <h5>add your items (Seperate with comma)</h5>
+            <input type="text" name="listItem">
+            <button type="submit">submit</button>
         </form>
     </main>
     <footer>
@@ -38,5 +41,11 @@ Content-type: text/html
 </html>
 END
 
-my $number = $cgi->param('number');
-print($number);
+my $item = $cgi->param('listItem');
+my @list = split(", ", $item);
+my $i = 1;
+
+foreach (@list) {
+    print($i, ": " , $_, " ");
+    $i += 1;
+}
