@@ -21,7 +21,7 @@ Content-type: text/html
     <body>
         perl web-page
         <h3>?</h3>
-        <form method="post">
+        <form action="check.pl" method="post">
             <section id="form-input">
                 enter:
                 <input type="text" id="input-use" name="use">
@@ -32,15 +32,6 @@ Content-type: text/html
     </body>
 </html>
 END
-
-my $use = $cgi->param('use');
-my $log = $cgi->param('log');
-
-if ($log eq "1997" && $use eq "S") {
-    print '<a href="../prl.cgi">successs</a>';
-} else {
-    print "not allowed!";
-}
 
 
 
