@@ -25,9 +25,12 @@ a#select {
 
 .tussenkopjes {
     width: 20vw;
-    aspect-ratio: 1/1;
     margin: 2%;
     background-color: rgb(234, 234, 234);
+}
+
+h3 {
+    font-size: initial;
 }
 
 p {

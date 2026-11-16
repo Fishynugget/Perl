@@ -25,7 +25,7 @@ Content-type: text/html
         <h2>perl text editor</h2>
     </header>
     <main>
-    open an already existing file
+        open an already existing file
         type something
         enter title
         <input type="text">

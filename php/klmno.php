@@ -57,19 +57,44 @@
             </section>
             <section class="tussenkopjes">
                 <h3>Number comparison</h3>
-                <p></p>
+                <p>
+                    Equal is ==<br><br>
+                    Not Equal is !=<br><br>
+                    Comparison is <=> (it's often used in sorting numbers: "$a <=> $b" The number operator returns: 1 if $a is greater than $b, 0 if $a and $b are equal and -1 if $a is lower than $b)<br><br>
+                    Less than is <<br><br>
+                    Greater than is ><br><br>
+                    Less than or equal is <=<br><br>
+                    Greater than or equal is >=
+                </p>
             </section>
             <section class="tussenkopjes">
                 <h3>string comparison</h3>
-                <p></p>
+                <p>
+                    Equal is eq<br><br>
+                    Not Equal is ne<br><br>
+                    Comparison is cmp<br><br>
+                    Less than is lt<br><br>
+                    Greater than is gt<br><br>
+                    Less than or equal is le<br><br>
+                    Greater than or equal is ge
+                </p>
             </section>
             <section class="tussenkopjes">
                 <h3>string concatenation</h3>
-                <p></p>
+                <p>
+                    . is concat<br><br>
+                    x is repetition<br><br>
+                    The concatenation operator (.) combines two strings together.<br><br>
+                    A string can be repeated with the repetition ( x) operator: (print "a message " x 4, "\n";)
+                </p>
             </section>
             <section class="tussenkopjes">
                 <h3>chomp()</h3>
-                <p></p>
+                <p>
+                    removes the last character in a string and returns a number of characters that were removed. The chomp() operator is very useful when dealing with the user’s input because it helps you remove the new line character \n from the string that the user entered.<br><br>
+                    example: "chomp($s = <STDIN>);"<br><br>
+                    The <STDIN> is used to get input from users.
+                </p>
             </section>
             <section class="tussenkopjes">
                 <h3>logical</h3>

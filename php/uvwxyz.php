@@ -17,4 +17,22 @@
             </section>
         </section>
     </section>
+
+    <section id="users">
+        <h1>Users<h1>
+        <section class="lists">
+            <section class="tussenkopjes">
+                <h3>Input</h3>
+                <p></p>
+            </section>
+            <section class="tussenkopjes">
+                <h3>output</h3>
+                <p></p>
+            </section>
+            <section class="tussenkopjes">
+                <h3></h3>
+                <p></p>
+            </section>
+        </section>
+    </section>
 </body>
