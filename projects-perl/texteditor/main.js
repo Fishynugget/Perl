@@ -1,0 +1,14 @@
+const spellcheck = document.getElementsByName('lang');
+console.log(spellcheck);
+const textdec = document.getElementsByName('textdec');
+console.log(textdec);
+const fontsize = document.getElementById('quantity').value;
+console.log(`fontsize: ${fontsize}`);
+const textalignment = document.getElementsByName('textalign');
+console.log(textalignment);
+const paginatoevoeg = document.getElementsByName('page');
+console.log(paginatoevoeg);
+const paginanummers = document.getElementsByName('pagenum');
+console.log(paginanummers);
+const wsearch = document.getElementById('wsearch');
+console.log(wsearch);

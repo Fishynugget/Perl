@@ -31,7 +31,7 @@ Content-type: text/html
         <section>
             <a id="select" href="calculator.cgi">Calculator</a>
             <a id="select" href="list.cgi">Make a list</a>
-            <a id="select" href="textEditor.cgi">text editor</a>
+            <a id="select" href="texteditor/textEditor.cgi">text editor</a>
             ideas: text-editor(check for grammer errors with css, select language, etc)
         </section>
     </main>

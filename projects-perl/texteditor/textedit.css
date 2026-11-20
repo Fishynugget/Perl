@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{font-size: 62.5%;}
+body {
+    font-size: 2vw;
+}
+:root {
+    --main-color: rgb(12, 132, 184);
+    --second-color: rgb(1, 56, 87);
+    --margin: 0.5rem;
+    --background-image: linear-gradient(to bottom right, var(--main-color), var(--second-color));
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    h2 {
+        justify-self: center;
+        width: fit-content;
+        margin: var(--margin);
+    }
+    #perllogo {
+        width: 5rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+#fileselect {
+    margin-left: var(--margin);
+}
+#textsettings {
+    display: flex;
+    background-image: var(--background-image);
+    margin: var(--margin);
+    section {
+        margin: 0.25rem;
+        margin-right: 0;
+        background-color: white;
+        width: calc(100% - 0.5rem);
+    }
+    #textdecoration {
+        section {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        div {
+            width: fit-content;
+            margin: 0.05rem;
+            margin-right: var(--margin);
+        }
+    }
+    section:nth-child(5) {
+        margin-right: 0.25rem;
+        section {
+            display: flex;
+        }
+    }
+}
+#searchbar {
+    margin-left: var(--margin);
+}
+#textbox {
+    background-image: var(--background-image);
+    margin: var(--margin);
+    #filetitle {
+        margin: var(--margin);
+        margin-bottom: var(--margin);
+    }
+    #textcontent {
+        margin: var(--margin);
+        width: calc(100% - 1rem);
+        height: 30rem;
+    }
+}
+#savefile {
+    margin-left: var(--margin);
+    width: fit-content;
+}
+#download {
+    margin-left: var(--margin);
+}
+#datafile {
+    margin-left: var(--margin);
+}
